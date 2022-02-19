@@ -20,7 +20,7 @@ function view() {
             <LinkButtonVideo>Statistics</LinkButtonVideo>
             <LinkButtonVideo>Settings</LinkButtonVideo>
             
-            <styles.LinkLogOut>Log out</styles.LinkLogOut>
+            <styles.LinkLogOut>Log out-test</styles.LinkLogOut>
             
            </styles.left>
 
