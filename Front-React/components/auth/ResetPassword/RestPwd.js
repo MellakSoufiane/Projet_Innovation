@@ -11,6 +11,8 @@ function reset() {
   const { handleSubmit, errors } = useForm(validate);
   const [email, setEmail] = useState('')
 
+ 
+   
 
 
 return (

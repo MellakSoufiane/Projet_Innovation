@@ -6,7 +6,7 @@ const { mongo: mongoConfig } = config
 
 async function connectToMongo() {
   try {
-    const connection = await mongoose.connect(mongoConfig.uri, {
+    const connection = mongoose.connect(mongoConfig.uri, {
       keepAlive: true,
       autoIndex: true,
       useNewUrlParser: true,
