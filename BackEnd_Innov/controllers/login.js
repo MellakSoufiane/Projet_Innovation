@@ -1,5 +1,5 @@
-import { getUserByEmail, comparePassword } from '../../models/user.js'
-import { generateJWT } from '../../jwt.js'
+import { getUserByEmail, comparePassword } from '../models/user.js'
+import { generateJWT } from '../jwt.js'
 
 async function login(req, res) {
   const { email, password } = req.body

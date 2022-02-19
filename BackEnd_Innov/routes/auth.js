@@ -1,7 +1,7 @@
 import { Router } from 'express'
 
-import signupController from '../controllers/auth/signup.js'
-import loginController from '../controllers/auth/login.js'
+import signupController from '../controllers/signup.js'
+import loginController from '../controllers/login.js'
 
 const router = Router()
 
