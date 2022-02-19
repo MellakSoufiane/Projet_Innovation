@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-
+import { FiVideo } from "react-icons/fi";
 const Normalize = createGlobalStyle`
   /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -85,6 +85,7 @@ const Normalize = createGlobalStyle`
   a: active{
     color: #005FFC;
   }
+  
 
   /**
   * 1. Remove the bottom border in Chrome 57-

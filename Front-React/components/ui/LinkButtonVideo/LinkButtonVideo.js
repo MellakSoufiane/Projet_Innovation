@@ -7,7 +7,7 @@ width: 49px;
 height: 17px;
 left: 35px;
 top: 1.5px;
-
+display: flex;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;

@@ -5,8 +5,8 @@ import Button from  '../../ui/Button'
 import {useState} from 'react';
 import Popup from '../../ui/Popup/Popup';
 import ButtonLogout from '../../ui/LogoutButton/LogoutButton';
-import { TitlePopup } from '../../ui/Popup/BoxPop';
-
+import { FiVideo,FiMic,FiSettings } from "react-icons/fi";
+import {BiBarChartSquare} from "react-icons/bi";
 
 function view() {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +23,36 @@ function view() {
 
             <styles.TitleLeft>FASTCAST</styles.TitleLeft>
             <Spacer y={63.5}></Spacer>
-            <LinkButtonVideo>Videos</LinkButtonVideo>
-            <LinkButtonVideo>Audio</LinkButtonVideo>
-            <LinkButtonVideo>Statistics</LinkButtonVideo>
-            <LinkButtonVideo>Settings</LinkButtonVideo>
+            
+            <LinkButtonVideo>
+                <ul>
+                  <li>
+                  <FiVideo size={15}/>
+                    Profile
+                    </li>
+                </ul>
+                
+                
+            </LinkButtonVideo>
+           
+            <LinkButtonVideo><ul>
+                  <li>
+                  <FiMic size={15}/>
+                    Audio
+                    </li>
+                </ul></LinkButtonVideo>
+            <LinkButtonVideo><ul>
+                  <li>
+                  <BiBarChartSquare size={15}/>
+                    Statistics
+                    </li>
+                </ul></LinkButtonVideo>
+            <LinkButtonVideo><ul>
+                  <li>
+                  <FiSettings size={15}/>
+                    Settings
+                    </li>
+                </ul></LinkButtonVideo>
             
             <ButtonLogout>Log out</ButtonLogout>
             

@@ -58,7 +58,7 @@ color: #292B2E;
 export const LabelBox = styled.p`
 position: relative;
 left: 0px;
-top: 145px;
+top: 95px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -80,7 +80,7 @@ margin: 8px 0px;
 export const DescBox = styled.p`
 position: relative;
 left: 0px;
-top: 177px;
+top: 107px;
 
 
 font-family: Montserrat;
@@ -99,19 +99,23 @@ margin: 8px 0px;
 export const BoxImg = styled.div`
 position: relative;
 left: 0px;
-top: 90px;
+top: 50px;
 
 
 `
-export const Img = styled.img`
-position: absolute;
 
-text-align: center
+export const BoxSelect = styled.div`
+position: relative;
+left: 293px;
+top: 107px; 
+text-align:center;
+width: 142px;
+height: 40px;
+background: #005FFC;
+border-radius: 8px;
+
 flex: none;
-order: 1;
+order: 2;
 flex-grow: 0;
-margin: 8px 0px;
-
-background: url('/_next/static/media/video.67df3e0d.png');
-
+margin: 20px 0px;
 `
