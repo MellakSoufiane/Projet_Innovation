@@ -1,9 +1,8 @@
 import * as styles from './style'
 import Spacer from '../../ui/Spacer'
 import LinkButtonVideo from '../../ui/LinkButtonVideo'
-import logo from './image.png'; 
+import Button from  '../../ui/Button'
 
-console.log(logo); 
 
 function view() {
     
@@ -29,8 +28,10 @@ function view() {
          
            <styles.LinkImg/>
            
-           < styles.TitleRight>You have no video</styles.TitleRight>
-               
+           < styles.TitleRight>You have no video !</styles.TitleRight>
+                <styles.ButtonDiv>
+               <Button>Add Video</Button>
+               </styles.ButtonDiv>
             </styles.right>
 
        </styles.main>

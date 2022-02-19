@@ -35,11 +35,11 @@ margin: 0px 0px;
 export const right = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: center;
+
 align-items: center;
 padding: 0px;
 
-position: static;
+position: absolute;
 width: 1159px;
 height: 900px;
 left: 281px;
@@ -96,19 +96,21 @@ margin: 0px 15px;
 margin-top:447px;
 `
 export const LinkImg = styled.img`
-position: relative;
+position: absolute;
 width: 448.6px;
 height: 299.59px;
-top: 0px;
-background: linear-gradient(0deg, #D5E3FF, #D5E3FF), url(/_next/static/media/image.2edb2e5c.png);
+left: 310.69px;
+top: 174.9px;
+background: url(/_next/static/media/image.2edb2e5c.png);
 background-blend-mode: soft-light, normal;
 `
 export const TitleRight = styled(Text)`
-position: relative;
+position: absolute;
+
 width: 197px;
 height: 24px;
-left: 55px;
-top: 0px;
+left: 451px;
+top: 500.5px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -118,5 +120,13 @@ line-height: 24px;
 text-align: center;
 
 color: #292B2E;
+margin: 20px 0px;
+`
+export const ButtonDiv = styled.div`
+position: absolute;
+height: 44px;
+width: auto;
+left: 503px;
+top: 600.5px;
 
 `
