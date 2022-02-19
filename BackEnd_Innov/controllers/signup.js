@@ -1,5 +1,5 @@
-import { getUserByEmail, createUser } from '../../models/user.js'
-import { generateJWT } from '../../jwt.js'
+import { getUserByEmail, createUser } from '../models/user.js'
+import { generateJWT } from '../jwt.js'
 
 async function signup(req, res) {
   const { email, name, password } = req.body
