@@ -79,6 +79,12 @@ const Normalize = createGlobalStyle`
   a {
     background-color: transparent;
   }
+  a: hover{
+    color: #005FFC;
+  }
+  a: active{
+    color: #005FFC;
+  }
 
   /**
   * 1. Remove the bottom border in Chrome 57-

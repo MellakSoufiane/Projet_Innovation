@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 import Button from '../../ui/Button'
 import Text from '../../ui/Text'
-import logo from './image.png'
-
-console.log(logo); 
+ 
 export const main = styled.div`
 display: flex;
 flex-direction: row;
