@@ -58,7 +58,7 @@ color: #292B2E;
 export const LabelBox = styled.p`
 position: relative;
 left: 0px;
-top: 95px;
+top: 55px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -80,7 +80,7 @@ margin: 8px 0px;
 export const DescBox = styled.p`
 position: relative;
 left: 0px;
-top: 107px;
+top: 70px;
 
 
 font-family: Montserrat;
@@ -106,8 +106,8 @@ top: 50px;
 
 export const BoxSelect = styled.div`
 position: relative;
-left: 293px;
-top: 107px; 
+left: 223px;
+top: 60px; 
 text-align:center;
 width: 142px;
 height: 40px;
@@ -118,4 +118,52 @@ flex: none;
 order: 2;
 flex-grow: 0;
 margin: 20px 0px;
+`
+export const ButtonSubmit = styled.button`
+position: relative;
+left: 0;
+top: 70px; 
+
+box-sizing: border-box;
+  display: inline-block;
+
+  height: 44px;
+  width: 100px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+
+  user-select: none;
+  outline: none;
+  text-transform: capitalize;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+
+  color: var(--text-secondary-color);
+  background: var(--button-primary-color);
+  border: none;
+  cursor: pointer;
+
+  :hover,
+  :focus {
+    opacity: 0.6;
+  }
+
+  ${({ disabled }) =>
+    disabled &&
+    css`
+      :hover {
+        cursor: not-allowed;
+        filter: grayscale(1);
+        -webkit-transform: translateZ(0);
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: hidden;
+      }
+    `}
+
 `

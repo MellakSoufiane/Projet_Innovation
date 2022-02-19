@@ -27,7 +27,7 @@ function view() {
             <LinkButtonVideo>
                 <ul>
                   <li>
-                  <FiVideo size={15}/>
+                  <FiVideo size={20}/>
                     Profile
                     </li>
                 </ul>
@@ -37,19 +37,19 @@ function view() {
            
             <LinkButtonVideo><ul>
                   <li>
-                  <FiMic size={15}/>
+                  <FiMic size={20}/>
                     Audio
                     </li>
                 </ul></LinkButtonVideo>
             <LinkButtonVideo><ul>
                   <li>
-                  <BiBarChartSquare size={15}/>
+                  <BiBarChartSquare size={20}/>
                     Statistics
                     </li>
                 </ul></LinkButtonVideo>
             <LinkButtonVideo><ul>
                   <li>
-                  <FiSettings size={15}/>
+                  <FiSettings size={20}/>
                     Settings
                     </li>
                 </ul></LinkButtonVideo>

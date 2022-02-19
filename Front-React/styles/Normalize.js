@@ -172,6 +172,7 @@ const Normalize = createGlobalStyle`
   optgroup,
   select,
   textarea {
+    box-sizing: border-box;
     font-family: inherit; /* 1 */
     font-size: 100%; /* 1 */
     line-height: 1.15; /* 1 */
