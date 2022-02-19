@@ -1,8 +1,9 @@
 import React from 'react';
 import { DescBox, LabelBox, Popupbox, BoxImg, BoxSelect } from './BoxPop';
-import { TitlePopup ,Exit,Box,ButtonSubmit} from './BoxPop';
+import { TitlePopup ,Exit,Box} from './BoxPop';
 import { FiVideo,FiX } from "react-icons/fi";
 import SelectButton from '../SelectButton/SelectButton';
+import ButtonAddLink from '../LinkAddButton/LinkAddButton';
 import { useState } from 'react';
 import axios from 'axios';
 import { toast} from 'react-toastify';
@@ -54,7 +55,7 @@ const Popup = props => {
                      
            
             </SelectButton></BoxSelect>
-            <ButtonSubmit>Submit</ButtonSubmit>
+            <ButtonAddLink href = 'add'>Submit</ButtonAddLink>
             </form>
         </Box>
         <Preview files={files}/>
