@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
 
 export const Title = styled(Text)`
   text-align: center;
+  line-height: 300%;
 `
 
 export const ValidateButton = styled(Button)`

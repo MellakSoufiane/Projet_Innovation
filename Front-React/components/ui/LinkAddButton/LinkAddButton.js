@@ -11,7 +11,7 @@ box-sizing: border-box;
   display: inline-block;
 
   height: 44px;
-  width: 100px;
+  width: 100%;
   padding: 12px 20px;
   font-size: 14px;
   font-weight: 600;
@@ -35,6 +35,7 @@ box-sizing: border-box;
   :hover,
   :focus {
     opacity: 0.6;
+    color:white;
   }
 
   ${({ disabled }) =>

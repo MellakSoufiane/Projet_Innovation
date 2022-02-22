@@ -5,7 +5,7 @@ import * as styles from './styles'
 import Spacer from '../../ui/Spacer'
 import useForm from './useform'
 import validate from './Validate'
-
+import ButtonAddLink from '../../ui/LinkAddButton/LinkAddButton'
 
 function reset() {
   const { handleSubmit, errors } = useForm(validate);
@@ -20,7 +20,7 @@ return (
         <styles.FormContainer>
         <form onSubmit={handleSubmit}>
             <styles.Title h4>Forget Your Password ?</styles.Title>
-            <Spacer y={40} />
+            
   
             
             <Input
@@ -39,12 +39,12 @@ return (
           
           <LinkButton href ='login'>Already have account?</LinkButton>
 
-          <Spacer y={24} />
+          
 
-          <styles.ValidateButton  htmlType="submit" >
+          <ButtonAddLink  htmlType="submit" href='verification'>
             Next
-          </styles.ValidateButton>
-          <Spacer y={24} />
+          </ButtonAddLink>
+          <Spacer y={40} />
 
           </form>
         </styles.FormContainer>
